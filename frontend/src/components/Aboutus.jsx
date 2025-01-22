@@ -1,0 +1,42 @@
+import React from "react";
+
+const Aboutus = () => {
+  return (
+    <div id="about" className="md:pl-[100px] md:pr-[100px] pt-[80px]">
+      <div className="md:flex justify-between items-center">
+        <div className="p-4">
+          <div className="border-2 p-1 bg-[#373636] rounded-tr-2xl w-[100px] border-[blue]">
+            <h1 className="font-notoSerif text-[#9cccdf]">About Me</h1>
+          </div>
+          <div className="mt-6 border border-gray-300 p-2 rounded-tr-2xl rounded-bl-2xl bg-gray-900">
+            <p className="md:w-[500px] font-serif text-[14px] text-white">
+              {" "}
+              My name is Bhupendra Saini, and I am from Dausa,Rajasthan. I have
+              completed my graduation from Poornima University, Jaipur, in April
+              2024. I passed my 10th grade with 73% and 12th grade with 90% from
+              Science Campus School, Mandawar, Dausa. I am passionate about web
+              development and have built a strong foundation in front-end
+              technologies such as HTML, CSS, and JavaScript. I have
+              successfully completed several projects where I applied these
+              skills to create responsive and interactive websites. Currently, I
+              am continuously learning new tools and frameworks like Tailwind
+              CSS and React to enhance my development skills. . I am a quick
+              learner who believes in learning from past mistakes and
+              experiences. That’s all about me. Thank you!
+            </p>
+          </div>
+        </div>
+        <div className="md:pt-[75px] pt-[50px] md:p-0 p-2">
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1200/0*ARCVgw1aDJ0vWXKM.jpeg"
+            alt="about"
+            className="md:w-[350px] md:h-[200px]"
+          />
+        </div>
+      </div>
+      <hr className="mt-[100px]" />
+    </div>
+  );
+};
+
+export default Aboutus;
