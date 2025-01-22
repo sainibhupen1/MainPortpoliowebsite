@@ -16,17 +16,15 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full  overflow-x-hidden">
       <div>
-        <h1 className="text-blue-500 text-center text-[28px] md:text-[35px] font-notoSerif underline mt-10 md:mt-5 mb-8">
-          Skills
+        <h1 className="text-[#438584] text-center text-[28px] md:text-[35px] font-notoSerif underline mt-10 md:mt-5 mb-8">
+          Skills*
         </h1>
       </div>
       <div className="px-4 md:px-[100px]">
         {/* Front-End Section */}
         <div>
-          <div className="border-2 p-1 bg-[#94b99c] rounded-tr-2xl w-[120px] border-[#2296a5] rounded-bl-md mx-auto md:mx-0">
-            <h1 className="font-notoSerif text-[#b12929] text-center">
-              Front-End
-            </h1>
+          <div className="border-2 p-1 bg-gray-200 rounded-tr-2xl w-[100px] border-[#a0a0e6]">
+            <h1 className="font-notoSerif text-[#c63e92]">Front-End</h1>
           </div>
           <div className="pt-10  p-4 flex flex-wrap justify-center md:justify-between gap-6">
             {[
@@ -72,10 +70,8 @@ const Skills = () => {
         {/* Back-End Section */}
         <div className="flex flex-wrap justify-between gap-10">
           <div className="w-full md:w-auto">
-            <div className="border-2 p-1 bg-[#94b99c] rounded-tr-2xl w-[120px] border-[#2296a5] rounded-bl-md mx-auto md:mx-0">
-              <h1 className="font-notoSerif text-[#b12929] text-center">
-                Back-End
-              </h1>
+            <div className="border-2 p-1 bg-gray-200 rounded-tr-2xl w-[100px] border-[#a0a0e6]">
+              <h1 className="font-notoSerif text-[#c63e92]">Back-End</h1>
             </div>
             <div className="pt-10 p-4 flex flex-wrap gap-6 justify-center">
               {[
@@ -111,10 +107,8 @@ const Skills = () => {
             </div>
           </div>
           <div className="w-full md:w-auto">
-            <div className="border-2 p-1 bg-[#94b99c] rounded-tr-2xl w-[120px] border-[#2296a5] rounded-bl-md mx-auto md:mx-0">
-              <h1 className="font-notoSerif text-[#b12929] text-center">
-                Data-Base
-              </h1>
+            <div className="border-2 p-1 bg-gray-200 rounded-tr-2xl w-[100px] border-[#a0a0e6]">
+              <h1 className="font-notoSerif text-[#c63e92]">Data-Base</h1>
             </div>
             <div className="pt-10 p-4 flex flex-wrap gap-6 justify-center">
               <div className="flex flex-col items-center gap-3 text-center">
@@ -143,10 +137,8 @@ const Skills = () => {
 
         {/* Others Section */}
         <div>
-          <div className="border-2 p-1 bg-[#94b99c] rounded-tr-2xl w-[120px] border-[#2296a5] rounded-bl-md mx-auto md:mx-0">
-            <h1 className="font-notoSerif text-[#b12929] text-center">
-              Others
-            </h1>
+          <div className="border-2 p-1 bg-gray-200 rounded-tr-2xl w-[100px] border-[#a0a0e6]">
+            <h1 className="font-notoSerif text-[#c63e92]">Others</h1>
           </div>
           <div className="pt-10 p-4 flex flex-wrap justify-center md:justify-between gap-6">
             {[
@@ -192,7 +184,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <hr className="mt-16" />
+      <hr className="mt-16 border border-gray-200 md:mt-[150px]" />
     </div>
   );
 };

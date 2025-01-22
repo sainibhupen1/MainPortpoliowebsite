@@ -5,40 +5,31 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#232121] fixed w-full md:w-full shadow-lg flex justify-between p-2 items-center md:pl-8 md:pr-[100px]">
+    <div className="bg-gray-200 fixed w-full md:w-full shadow flex justify-between p-2 items-center md:pl-8 md:pr-[100px] z-10">
       <h1 className=" items-center flex">
         <span className="md:text-[20px] pr-2 text-[blue]">&lt;B&gt;</span>
-        <span className="first-letter:text-[#83df83] first-letter:text-[25px] md:first-letter:text-[35px] text-white md:text-[25px] font-notoSerif">
+        <span className="first-letter:text-[#26c426] first-letter:text-[25px] md:first-letter:text-[35px] text-[#7c7f99] md:text-[25px] font-notoSerif">
           BHUPENDRA
         </span>
       </h1>
       <div className="hidden md:block">
         <ul className=" flex gap-8">
-          <li className="text-white font-notoSerif text-[18px]">
+          <li className="text-gray-800  font-notoSerif text-[18px]">
             <Link
               to="home"
               smooth={true}
               duration={1000}
-              className="cursor-pointer hover:text-[blue]"
+              className=" cursor-pointer hover:text-[blue]"
             >
               Home
             </Link>{" "}
           </li>
-          <li className="text-white font-notoSerif text-[18px]">
+          <li className="text-gray-800  font-notoSerif text-[18px]">
             <Link
               to="about"
               smooth={true}
@@ -48,7 +39,7 @@ const Navbar = () => {
               About Us
             </Link>{" "}
           </li>
-          <li className="text-white font-notoSerif text-[18px]">
+          <li className="text-gray-800  font-notoSerif text-[18px]">
             <Link
               to="projects"
               smooth={true}
@@ -58,7 +49,7 @@ const Navbar = () => {
               Projects
             </Link>{" "}
           </li>
-          <li className="text-white font-notoSerif text-[18px]">
+          <li className="text-gray-800  font-notoSerif text-[18px]">
             <Link
               to="contactus"
               smooth={true}
@@ -68,7 +59,7 @@ const Navbar = () => {
               Contact Us
             </Link>{" "}
           </li>
-          <li className="text-white font-notoSerif text-[18px]">
+          <li className="text-gray-800  font-notoSerif text-[18px]">
             <Link
               to="skills"
               smooth={true}

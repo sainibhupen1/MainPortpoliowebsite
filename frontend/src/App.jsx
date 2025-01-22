@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-[black] w-full md:w-full">
+    <div className="bg-gray-50 w-full md:w-full">
       <Navbar />
       <HomePage />
       <Aboutus />

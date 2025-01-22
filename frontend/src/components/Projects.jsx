@@ -27,7 +27,7 @@ const project = [
     link: "https://sainibhupen1.github.io/text-count/",
   },
   {
-    img: "https://media.licdn.com/dms/image/v2/D4D2DAQGZ3yg7zUUqiQ/profile-treasury-image-shrink_160_160/profile-treasury-image-shrink_160_160/0/1727418119123?e=1737972000&v=beta&t=n-T3fQhXUmWTtejKP6huv0_EZCZSrZ3WyKSvAEFe-YA",
+    img: "https://media.licdn.com/dms/image/v2/D562DAQHXYF-5gEfZvA/profile-treasury-image-shrink_160_160/profile-treasury-image-shrink_160_160/0/1733565306408?e=1738155600&v=beta&t=4e63e_JHutklWb1ImBso0GLaOlE-q7zav3dPUJnUbis",
     name: "Create-resume-library",
     content:
       "This is entirely built using the MERN stack (MongoDB, Express, React, Node.js). The user can store a book with its price in the library, update it, or delete it. The user can create a resume and also update or download it.",
@@ -40,7 +40,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full md:pl-[100px] pl-2 md:pr-[100px]">
       <div>
-        <h1 className="text-[blue] md:text-[35px] font-notoSerif underline flex pl-6 text-[20px] md:pl-0 md:justify-center mt-[50px] md:mt-[20px] mb-[60px]">
+        <h1 className="text-[#438584] md:text-[35px] font-notoSerif underline flex pl-6 text-[20px] md:pl-0 md:justify-center mt-[50px] md:mt-[20px] mb-[60px]">
           Projects*
         </h1>
       </div>
@@ -49,7 +49,7 @@ const Projects = () => {
           return (
             <div
               key={index}
-              className="border-2 rounded-tr-[100px] p-2 border-gray-100 w-[320px] h-[350px] bg-[#95d3c3]"
+              className=" rounded-tr-[100px] p-2  w-[320px] h-[350px] bg-gray-100 transform transition-transform duration-300 hover:-translate-y-2 shadow hover:bg-gray-200"
             >
               <div className="flex items-center justify-between pr-8">
                 <img
@@ -59,7 +59,7 @@ const Projects = () => {
                 />
                 <div className="text-center">
                   <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    <p className="bg-[blue] rounded-full p-1 text-white cursor-pointer">
+                    <p className="bg-gray-300 rounded-full p-1 text-[blue] cursor-pointer">
                       <MdOutlineCameraAlt />
                     </p>
                   </a>
@@ -67,21 +67,21 @@ const Projects = () => {
               </div>
 
               <h1 className="pt-1 cursor-default">
-                <span className="text-[15px] font-merriweather  text-[blue]">
+                <span className="text-[15px] font-merriweather  text-[#1b112b]">
                   Project-Name:-
                 </span>
-                <span className="text-center text-[#1b112b] font-serif">
+                <span className="text-center text-[#565691] font-serif">
                   {item.name}
                 </span>
               </h1>
-              <p className="font-garamond pt-1 text-[15px] text-[rgb(60,19,76)]  cursor-default">
+              <p className="font-garamond pt-1 text-[15px] text-gray-700  cursor-default">
                 {item.content}
               </p>
               <h1 className="pt-1  cursor-default">
-                <span className="text-[12px] font-merriweather  text-[blue]">
+                <span className="text-[12px] font-merriweather  text-[#44448f]">
                   Skills:-
                 </span>
-                <span className="text-center text-[blue] font-merriweather text-[12px]">
+                <span className="text-center text-[#44448f] font-merriweather text-[12px]">
                   {item.skills}
                 </span>
               </h1>

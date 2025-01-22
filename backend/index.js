@@ -15,9 +15,11 @@ app.use(cors())
 const _dirname = path.resolve();
 
 app.post("/message", async (req, res) => {
+
+
     try {
-        console.log(req.body.name && req.body.email && req.body.message)
-        if (req.body.name && req.body.email && req.body.message) {
+
+        if (req.body.name && req.body.email && req.body.number && req.body.message) {
             let users = new User(req.body);
             await users.save();
 

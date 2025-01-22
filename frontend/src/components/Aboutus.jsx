@@ -5,11 +5,11 @@ const Aboutus = () => {
     <div id="about" className="md:pl-[100px] md:pr-[100px] pt-[80px]">
       <div className="md:flex justify-between items-center">
         <div className="p-4">
-          <div className="border-2 p-1 bg-[#373636] rounded-tr-2xl w-[100px] border-[blue]">
-            <h1 className="font-notoSerif text-[#9cccdf]">About Me</h1>
+          <div className="border-2 p-1 bg-gray-200 rounded-tr-2xl w-[100px] border-[#a0a0e6]">
+            <h1 className="font-notoSerif text-[#c63e92]">About Me</h1>
           </div>
-          <div className="mt-6 border border-gray-300 p-2 rounded-tr-2xl rounded-bl-2xl bg-gray-900">
-            <p className="md:w-[500px] font-serif text-[14px] text-white">
+          <div className="mt-6 border  p-2 rounded-tr-2xl rounded-bl-2xl bg-gray-100 shadow">
+            <p className="md:w-[500px] font-serif text-[14px] text-gray-600">
               {" "}
               My name is Bhupendra Saini, and I am from Dausa,Rajasthan. I have
               completed my graduation from Poornima University, Jaipur, in April
@@ -34,7 +34,7 @@ const Aboutus = () => {
           />
         </div>
       </div>
-      <hr className="mt-[100px]" />
+      <hr className="mt-[50px] border border-gray-200 md:mt-[150px]" />
     </div>
   );
 };
