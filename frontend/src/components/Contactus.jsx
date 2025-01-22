@@ -12,13 +12,16 @@ const Contactus = () => {
   const [message, SetMessage] = useState("");
 
   const submithandler = async () => {
-    let result = await fetch("http://localhost:8000/message", {
-      method: "post",
-      body: JSON.stringify({ name, email, message }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    let result = await fetch(
+      "https://mainportpoliowebsite.onrender.com/message",
+      {
+        method: "post",
+        body: JSON.stringify({ name, email, message }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     result = await result.json();
     if (result) {
       toast.success(result.message);
