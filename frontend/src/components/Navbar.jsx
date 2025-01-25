@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import img from "../../public/bname.png";
 import { Button } from "@/components/ui/button";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
@@ -12,9 +13,19 @@ const Navbar = () => {
   return (
     <div className="bg-gray-200 fixed w-full md:w-full shadow flex justify-between p-2 items-center md:pl-8 md:pr-[100px] z-10">
       <h1 className=" items-center flex">
-        <span className="md:text-[20px] pr-2 text-[blue]">&lt;B&gt;</span>
-        <span className="first-letter:text-[#26c426] first-letter:text-[25px] md:first-letter:text-[35px] text-[#7c7f99] md:text-[25px] font-notoSerif">
+        {/* <span className="md:text-[20px] pr-2 text-[blue]">&lt;B&gt;</span> */}
+        {/* <span className="first-letter:text-[#26c426] first-letter:text-[25px] md:first-letter:text-[35px] text-[#7c7f99] md:text-[25px] font-notoSerif">
           BHUPENDRA
+        </span> */}
+        <span className="flex ">
+          <img
+            src={img}
+            alt="img"
+            className="w-[50px] md:w-[60px] h-[35px] md:h-[45px]"
+          />{" "}
+          <p className=" text-[#be4e9e] md:text-[30px] font-notoSerif -ml-[9px] md:-ml-3 md:pt-[5px] pt-[6px] text-[20px]">
+            𝖍𝖚𝖕𝖊𝖓..
+          </p>
         </span>
       </h1>
       <div className="hidden md:block">
@@ -74,11 +85,11 @@ const Navbar = () => {
       <div className="md:hidden">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button>
+            <Button className="bg-gray-200 text-black">
               <GiHamburgerMenu />
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-[200px] p-4 bg-black">
+          <DropdownMenuContent className="w-[200px] p-4 bg-gray-400">
             <ul className=" flex flex-col gap-4">
               <li className="text-white font-notoSerif text-[18px]">
                 <Link
