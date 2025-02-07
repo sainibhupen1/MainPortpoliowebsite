@@ -20,9 +20,10 @@ const Aboutus = () => {
               successfully completed several projects where I applied these
               skills to create responsive and interactive websites. Currently, I
               am continuously learning new tools and frameworks like Tailwind
-              CSS and React to enhance my development skills. . I am a quick
-              learner who believes in learning from past mistakes and
-              experiences. That’s all about me. Thank you!
+              CSS and React to enhance my development skills.and I have been
+              working as a Frontend Developer at Sudotech. I am a quick learner
+              who believes in learning from past mistakes and experiences.
+              That’s all about me. Thank you!
             </p>
           </div>
         </div>

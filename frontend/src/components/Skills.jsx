@@ -149,7 +149,7 @@ const Skills = () => {
               },
               {
                 icon: <FaGuilded size={30} />,
-                label: "SADCN UI",
+                label: "MATERIAL UI",
                 color: "#168914",
               },
               {
